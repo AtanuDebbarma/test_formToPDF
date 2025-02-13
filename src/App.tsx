@@ -1,6 +1,6 @@
 import React from "react";
 import { usePDF } from "react-to-pdf";
-import "./App.css";
+import "./index.css";
 
 const App: React.FC = () => {
   const { toPDF, targetRef } = usePDF({
