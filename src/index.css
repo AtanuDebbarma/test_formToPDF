@@ -1,0 +1,96 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+/* Container styling */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #4a90e2, #9013fe);
+  padding: 20px;
+}
+
+/* Form container */
+.form-container {
+  background: #fff;
+  padding: 20px;
+  padding-right: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  width: 350px;
+  text-align: center;
+}
+
+/* Form title */
+.form-title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Form group */
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+/* Labels */
+.form-group label {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  color: #444;
+}
+
+/* Input fields */
+.form-input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: border 0.3s ease-in-out;
+}
+.pdf-input{
+  height: 40px;
+}
+/* Input focus effect */
+.form-input:focus {
+  border-color: #4a90e2;
+  outline: none;
+  box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
+}
+
+/* Download button */
+.download-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background: #4a90e2;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+/* Button hover effect */
+.download-btn:hover {
+  background: #357abd;
+}
